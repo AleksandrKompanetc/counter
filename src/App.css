@@ -68,3 +68,19 @@
   color: white;
   cursor: pointer;
 }
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+}
+
+.open-modal-btn {
+  margin-bottom: 50px;
+}
+
+.modal {
+  display: flex;
+}
