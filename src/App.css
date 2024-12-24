@@ -37,6 +37,12 @@
   }
 }
 
+.container {
+  padding: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
 .counter {
   color: grey;
 }
