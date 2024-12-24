@@ -77,18 +77,27 @@
   padding: 20px;
   align-items: center;
   text-align: center;
-  gap: 30px;
+  background-color: rgb(173, 247, 247);
 }
 
 .open-modal-btn {
   display: inline-block;
   margin-bottom: 30px;
+  padding: 3px 15px;
   width: 120px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .modal {
   display: flex;
+}
+
+.image {
+  border-radius: 5px;
 }
 
 .cross-button {
