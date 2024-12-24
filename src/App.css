@@ -72,15 +72,25 @@
 .modal-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 20px;
+  align-items: center;
   text-align: center;
+  gap: 30px;
 }
 
 .open-modal-btn {
-  margin-bottom: 50px;
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 120px;
+  cursor: pointer;
 }
 
 .modal {
   display: flex;
+}
+
+.cross-button {
+  cursor: pointer;
 }
