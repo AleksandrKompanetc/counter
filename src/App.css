@@ -103,3 +103,13 @@
 .cross-button {
   cursor: pointer;
 }
+
+.overlay.animated {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.overlay.animated.show {
+  opacity: 1;
+  visibility: visible;
+}
